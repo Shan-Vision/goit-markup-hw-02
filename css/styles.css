@@ -1,0 +1,113 @@
+:root {
+  --primary-text-color: rgba(117, 117, 117, 1);
+  --title-text-color: rgba(33, 33, 33, 1);
+  --accent-color: rgba(33, 150, 243, 1);
+  --primary-white-color: #ffffff;
+}
+li {
+  list-style: none;
+}
+/* background color #E5E5E5 */
+/* header color  #ECECEC */
+/*  primary text color rgba(117, 117, 117, 1) */
+/*  title text color  rgba(33, 33, 33, 1) */
+/*  logo color #000000  #2196F3 */
+/*  accent color #rgba(33, 150, 243, 1) */
+
+body {
+  background-color: var(--primary-white-color);
+  font-family: Roboto;
+  font-size: 14px;
+}
+
+/* оформление логотипа */
+.logo-primary {
+  font-family: Raleway;
+  font-style: bold;
+  font-size: 26px;
+  font-weight: 700;
+  color: #2196f3;
+}
+.logo-secondary {
+  font-family: Raleway;
+  font-style: bold;
+  font-size: 26px;
+  font-weight: 700;
+  color: black;
+}
+
+/* оформление навигации */
+.nav-item .nav-link:hover,
+.nav-item .nav-link:focus,
+.nav-item .nav-contact:hover,
+.nav-item .nav-contact:focus {
+  color: #2196f3;
+}
+
+.nav-item .nav-link {
+  color: var(--title-text-color);
+  font-weight: 500;
+}
+
+.nav-item .nav-link.curent {
+  color: var(--accent-color);
+}
+.nav-item .nav-contact {
+  color: var(--primary-text-color);
+  font-weight: 500;
+}
+
+/* оформление шапки */
+.main-title {
+  font-size: 44px;
+  font-weight: 900;
+  /* color: var(--primary-white-color); */
+}
+.main-button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-style: bold;
+  border-style: none;
+  font-size: 16px;
+}
+
+/* оформление секции /особенности/  */
+.features-caption {
+  font-weight: 700;
+  font-style: bold;
+  color: var(--title-text-color);
+}
+.features-text {
+  color: var(--primary-text-color);
+}
+
+/* оформление секции  /чем мы занимаемся/ */
+.work-title {
+  font-size: 36px;
+  font-weight: 700;
+}
+/* оформление секции /наша команда/ */
+.team-text {
+  color: var(--primary-text-color);
+}
+/* оформление верхней линии (портфолио) */
+.content-button {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+  font-size: 16px;
+  border-style: none;
+}
+.content-button:hover,
+.content-button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+/* оформление потрфолио */
+.aside-text {
+  color: var(--primary-text-color);
+}
+
+/* оформление подвала */
+.address-item .address-contact {
+  color: var(--primary-text-color);
+}
