@@ -17,7 +17,7 @@ body {
 /* Logo */
 .logo {
   text-decoration: none;
-  line-height: 1, 2;
+  line-height: 1.2;
 }
 .logo-primary {
   font-family: Raleway, sans-serif;
@@ -43,8 +43,9 @@ body {
 .nav-item .nav-link {
   color: var(--title-text-color);
   font-style: medium;
-  line-height: 1, 4;
+  line-height: 1.4;
   letter-spacing: 2%;
+  text-decoration: none;
 }
 
 .nav-item .nav-link.curent {
@@ -53,7 +54,7 @@ body {
 .nav-item .nav-contact {
   color: var(--primary-text-color);
   font-style: medium;
-  line-height: 1, 4;
+  line-height: 1.4;
   letter-spacing: 2%;
 }
 
@@ -63,14 +64,14 @@ body {
   background-color: #2f303a;
   font-size: 44px;
   font-style: black;
-  line-height: 1, 36;
+  line-height: 1.36;
   letter-spacing: 6%;
 }
 .main-button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   font-style: bold;
-  line-height: 1, 87;
+  line-height: 1.87;
   font-size: 16px;
   border-style: none;
   letter-spacing: 6%;
@@ -79,18 +80,19 @@ body {
 .logo,
 .features,
 .work,
-.team {
+.team,
+.content-item .content-button {
   letter-spacing: 3%;
 }
 /* Features */
 .features-caption {
   color: var(--title-text-color);
   font-style: bold;
-  line-height: 1, 14;
+  line-height: 1.14;
 }
 .features-text {
   color: var(--primary-text-color);
-  line-height: 1, 71;
+  line-height: 1.71;
 }
 
 /* Work */
@@ -98,37 +100,47 @@ body {
 .team-title {
   font-size: 36px;
   font-style: bold;
-  line-height: 1, 16;
+  line-height: 1.16;
 }
 /* Team */
 .team-caption {
   font-style: medium;
   font-size: 16px;
-  line-height: 1, 87;
+  line-height: 1.87;
 }
 .team-text {
   color: var(--primary-text-color);
-  line-height: 1, 87;
+  line-height: 1.87;
 }
 
-/* Content*/
+/* Portfolio */
 .content-button {
   color: var(--title-text-color);
   background-color: #f5f4fa;
-  font-size: 16px;
   border-style: none;
+  font-size: 16px;
+  font-style: medium;
+  line-height: 1.62;
 }
+
 .content-button:hover,
 .content-button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
-/* Portfolio */
-.aside-text {
+
+.content-text {
   color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 3%;
 }
-.aside-title {
+.content-title {
   color: var(--title-text-color);
+  font-size: 18px;
+  line-height: 2;
+  font-style: bold;
+  letter-spacing: 6%;
 }
 
 /* Footer */
