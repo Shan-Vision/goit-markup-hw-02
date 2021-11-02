@@ -2,7 +2,8 @@
   --primary-text-color: rgba(117, 117, 117, 1);
   --title-text-color: rgba(33, 33, 33, 1);
   --accent-color: rgba(33, 150, 243, 1);
-  --primary-white-color: #ffffff;
+  --primary-white-color: rgba(255, 255, 255, 1);
+  --button-bgc-color: rgba(245, 244, 250, 1);
 }
 li {
   list-style: none;
@@ -12,6 +13,7 @@ body {
   background-color: var(--primary-white-color);
   font-family: Roboto, sans-serif;
   font-size: 14px;
+  color: var(--primary-text-color);
 }
 
 /* Logo */
@@ -61,7 +63,7 @@ body {
 /* Header */
 .main-title {
   color: var(--primary-white-color);
-  background-color: #2f303a;
+  background-color: var(--primary-text-color);
   font-size: 44px;
   font-style: black;
   line-height: 1.36;
@@ -70,6 +72,7 @@ body {
 .main-button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  cursor: pointer;
   font-style: bold;
   line-height: 1.87;
   font-size: 16px;
@@ -81,29 +84,31 @@ body {
 .features,
 .work,
 .team,
-.content-item .content-button {
+.content-item .content-button,
+.address-destination {
   letter-spacing: 3%;
 }
 /* Features */
-.features-caption {
+.features-item .features-caption {
   color: var(--title-text-color);
   font-style: bold;
   line-height: 1.14;
 }
 .features-text {
-  color: var(--primary-text-color);
   line-height: 1.71;
 }
 
 /* Work */
 .work-title,
 .team-title {
+  color: var(--title-text-color);
   font-size: 36px;
   font-style: bold;
   line-height: 1.16;
 }
 /* Team */
 .team-caption {
+  color: var(--title-text-color);
   font-style: medium;
   font-size: 16px;
   line-height: 1.87;
@@ -116,10 +121,11 @@ body {
 /* Portfolio */
 .content-button {
   color: var(--title-text-color);
-  background-color: #f5f4fa;
+  background-color: var(--button-bgc-color);
   border-style: none;
-  font-size: 16px;
+  font-family: Roboto, sans-serif;
   font-style: medium;
+  font-size: 16px;
   line-height: 1.62;
 }
 
@@ -142,8 +148,12 @@ body {
   font-style: bold;
   letter-spacing: 6%;
 }
-
 /* Footer */
 .address-item .address-contact {
   color: var(--primary-text-color);
+}
+.address-destination {
+  color: var(--primary-white-color);
+  line-height: 1.71;
+  background-color: var(--primary-text-color);
 }
